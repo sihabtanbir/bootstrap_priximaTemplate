@@ -74,3 +74,12 @@ img{
     color:#ff4d29;
     border:2px solid #ff4d29;
 }
+
+/* banner  */
+.carousel-item .carousel-caption{
+    background: rgba(255, 255, 255, 0.6);
+    color: #092032;
+}
+.btn-work{
+    border: 2px solid #092032;
+}
