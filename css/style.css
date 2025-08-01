@@ -17,6 +17,19 @@ img{
 
 }
 
+.intro{
+    max-width: 500px;
+    margin: 30px auto;
+    text-align: center;
+    
+}
+.intro h4{
+    color:#ff4d29;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 6px;
+}
+
 /* navbar */
 
 .top-nav{
@@ -82,4 +95,39 @@ img{
 }
 .btn-work{
     border: 2px solid #092032;
+}
+.btn-work:hover{
+    color:#ff4d29;
+    border: 2px solid #ff4d29;
+    background:#fff;
+}
+.carousel-item img{
+    height: 100vh;
+}
+
+/* about section */
+
+.about{
+    margin: 50px 0;
+}
+
+.about i{
+    font-size: 48px;
+    color: #ff4d29;
+    font-weight: 700;
+}
+
+.about-img img{
+    height: 350px;
+    width: 250px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20% 30% 20% 25% /30% 30% 70% 25% ;
+    border: 3px double #ff4d29;
+    padding: 15px 0;
+    margin-left: 200px;
+}
+.milestone{
+    background: linear-gradient(rgba(255,77,41,0.87), rgba(232, 43, 5, 0.87),rgba(255,77,41,0.87) );
+    color:#fff;
 }
